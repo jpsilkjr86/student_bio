@@ -4,30 +4,75 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>John Silkey - Bio</title>
-	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="style1.css" type="text/css"/>
+	<link rel="stylesheet" href="style2.css" type="text/css"/>
+	<link rel="stylesheet" href="style3.css" type="text/css"/>
+	<link rel="stylesheet" href="style4.css" type="text/css"/>
 </head>
 
 <body>
 
-<h1>Student Bio</h1>
-<h2 class="textName">John Silkey</h2>
+	<header>
+		<h1 class="headerText">John Silkey - Bio</h1>
+	</header>
 
-<img src="portfolio.jpg" alt="John_Profile.jpg"/>
+	<nav>
+		<ui>
+			<li class="floatLeft">
+			  	<a class="navMenu" href="">link1</a>
+			</li>
+			<li class="floatLeft">
+			  	<a class="navMenu" href="">link2</a>
+			</li>
+			<li class="floatLeft">
+			  	<a class="navMenu" href="">link3</a>
+			</li>
+			<li class="floatRight">
+			  	<a class="navMenu" href="">link4</a>
+			</li>
+		</ui>
+	</nav>
 
-<p>
-Hello everyone, I am a student at UofA's Coding Bootcamp. This is my first BIO page I created using HTML for this class!
-</p>
+	<div id="middleRow">
 
-<h2>Contact Info</h2>
+		<section class="profile">
+			<img src="portfolio.jpg" style="width:200px"/>
+		</section>
 
-<div class="blockCenter">
-	<ul>
-		<li><b>Email: </b><a href="mailto:jpsilkjr86@gmail.com">jpsilkjr86@gmail.com</a></li>
-		<li><b>Github: </b><a href="https://github.com/jpsilkjr86/">jpsilkjr86</a></li>
-		<li><b>Portfolio: </b><a href="#">Coming Soon</a></li>
-	</ul>
-</div>
+		<section class="article">
+			<p>
+			Hello everyone, this is some sample text! To be, or not to be -- that is the question. Whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles, and by enduring end them.
+			</p>
+			<p>
+			To die, to sleep -- to sleep perchance to dream. For in that sleep of death what dreams may come, when we have shuffled off this mortal coil must give us pause.
+			</p>
+		</section>
+		
+		<div id="contactBar">
+			<ul>
+				<li class="vertical">
+					<a class="contact" href="mailto:jpsilkjr86@gmail.com">
+						<b>Email: </b>jpsilkjr86@gmail.com
+					</a>
+				</li>
+				<li class="vertical">
+					<a class="contact" href="https://github.com/jpsilkjr86/" target="_blank">
+						<b>Github: </b>jpsilkjr86
+					</a>
+				</li>
+				<li id="verticalLast">
+					<a class="contact" href="#">
+						<b>Portfolio: </b>Coming Soon
+					</a>
+				</li>
+			</ul>
+		</div>
 
+	</div>
+
+	<footer>
+		<p>This is some text for the footer.</p>
+	</footer>
 
 </body>
 </html>

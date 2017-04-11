@@ -1,0 +1,128 @@
+/*These are the CSS definitions for the 
+	div class="middleRow" blocks.*/
+
+div#middleRow
+{
+	/*border: 1px solid lightpink;    PLACEHOLDER*/
+	width: 100%;
+	min-width: 750px;
+	clear: both;
+	overflow: auto;
+}
+
+section.profile
+{
+	margin: 20px 15px 20px 50px;
+	float: left;
+}
+
+section.profile img
+{
+	border: 5px solid #87afc7;
+}
+
+section.profile img:hover
+{
+	opacity: .9;
+}
+
+section.article
+{
+	float: left;
+	/*display: block;*/
+	background-color: #202020;
+	margin: 20px 15px;
+	padding: 10px;
+	border-radius: 30px;
+	border: 5px solid #87afc7;
+	max-width: 400px;
+	min-width: 150px;
+	overflow: auto;
+}
+
+section.article p
+{
+	color: lightpink;
+}
+
+section.article:hover
+{
+	background-color: #030303;
+}
+
+div#contactBar
+{
+	float: left;
+	margin: 20px 12px;
+	overflow: hidden;
+	width: 200px;
+	font-size: .7em;
+	background-color: #202020;
+	border: 3px solid #87afc7;
+	vertical-align: middle;
+}
+
+/*   FAILED EXPERIMENT TRYING TO FIX THE CONTACT BAR
+div#contactBar
+{
+	position: fixed;
+	right: 14%;
+	top: 28%;
+	margin: 20px 12px;
+	overflow: hidden;
+	width: 200px;
+	font-size: .7em;
+	background-color: #404040;
+	border: 3px solid #87afc7;
+	vertical-align: middle;
+}*/
+
+div#contactBar ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+div#contactBar b
+{
+	color: lightpink;
+	font-weight: bold;
+}
+
+li.vertical
+{
+	list-style-type: none;
+	border-bottom: 1px solid #87afc7;
+	/*clear: right;*/
+}
+
+li#verticalLast
+{
+	list-style-type: none;
+}
+
+a.contact
+{
+	display: block;
+	padding: 10px 0px;
+	text-align: center;
+	color: #87afc7;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.contact:link
+{
+	text-decoration: none;
+}
+
+
+a.contact:hover
+{
+	background-color: #030303;
+}
+
+a.contact:active
+{
+	color: lightpink;
+}

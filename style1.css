@@ -1,0 +1,35 @@
+
+/*These are the CSS definitions for the 
+body and header section.*/
+
+body
+{
+	background-color: #f5f5dc;
+	font-family: courier;
+	max-width: 1000px;
+	margin: auto;
+}
+
+header
+{
+	background-color: #202020;
+	margin: 20px;
+	min-width: 600px;
+	border-radius: 30px;
+	border: 5px solid #87afc7;
+}
+
+header:hover
+{
+	background-color: #030303;
+}
+
+h1.headerText
+{
+	margin: 0px 0px 0px 10%;
+	font-size: 3em;
+	color: #87afc7;
+	letter-spacing: 2px;
+	padding: 10px 0px;
+}
+

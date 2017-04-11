@@ -1,0 +1,25 @@
+
+/*These are the CSS definitions for the footer.*/
+
+
+
+footer
+{
+	clear: left;
+	background-color: #202020;
+	margin: 20px;
+	padding: 0px;
+	border-radius: 30px;
+	border: 5px solid #87afc7;
+}
+
+footer p
+{
+	color: #87afc7;
+	text-align: center;
+}
+
+footer:hover
+{
+	background-color: #030303;
+}

@@ -1,0 +1,49 @@
+
+/*These are the CSS definitions for the navigation bar.*/
+nav
+{
+	background-color: #202020;
+	border: 3px solid #87afc7;
+	margin: 12px 40px;
+	min-width: 400px;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+
+li.floatLeft
+{
+	border-right: 1px solid #87afc7;
+	float: left;
+}
+
+li.floatRight
+{
+	border-left: 1px solid #87afc7;
+	float: right;
+}
+
+a.navMenu
+{
+	display: block;
+	padding: 10px 20px;
+	text-align: center;
+	color: #87afc7;
+	font-weight: bold;
+}
+
+a.navMenu:link
+{
+	text-decoration: none;
+}
+
+
+a.navMenu:hover
+{
+	background-color: #030303;
+}
+
+a.navMenu:active
+{
+	color: lightpink;
+}
